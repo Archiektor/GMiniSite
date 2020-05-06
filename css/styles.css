@@ -1,0 +1,50 @@
+.container {
+    width: 100vw;
+    background-color: white;
+}
+
+.logo {
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__img {
+    width: 300px;
+    height: auto;
+}
+
+.searchBar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar__input {
+    width: 32vw;
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 15px;
+    border: #ec1047 2px solid;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: white;
+    background-image: url("../img/icons8-search-100.png");
+    background-size: 13px 13px;
+    background-position: 7px 11px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.btn-block {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-block__item {
+    margin: 5px;
+    background-color: rgba(128, 212, 4, 0.55);
+    color: rgb(128, 125, 125);
+    width: 130px;
+    height: 32px;
+}
